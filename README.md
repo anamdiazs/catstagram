@@ -1,5 +1,5 @@
 ## Catstagram
-Catstagram is an instagram-based website that shows you random cat images. All data is Fetched from TheCatApi, you can find more information here: https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t
+Catstagram is an instagram-based website that shows you random cat images. All data is Fetched from TheCatApi, you can find more information here:  https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t
 
 First, to run the development server:
 ```bash
@@ -22,4 +22,5 @@ Now, everything should be working fine
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Or if you want to see the live demo: https://catstagram-omega.vercel.app/
 
