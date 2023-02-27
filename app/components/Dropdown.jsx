@@ -1,23 +1,25 @@
 'use client'
 
-import { useState } from 'react'
+import { useRecoilState } from 'recoil'
+import { currentBreedState } from '../atoms/currentBreed'
+
+
 export default function Dropdown(props) {
 	
-	const [selectedBreed, setSelectedBreed] = useState("none")
+	const [selectedBreed, setSelectedBreed] = useRecoilState(currentBreedState)
 	const { breeds } = props
 
 	const handleChange = (e) => {
 		setSelectedBreed(e.target.value)
 	}
 
-	console.log(selectedBreed)
   return (
 	<div className=''>
 		<form>
-			<select className='' defaultValue={selectedBreed} onChange={ e => handleChange(e)}>
+			<select className='h-8 rounded-md' defaultValue={'Select breed'} onChange={ e => handleChange(e)}>
 				<option>Select breed</option>
 				{breeds.map(item => (
-					<option className='text-lg' key={item} value={item}>{item}</option>
+					<option className='text-lg' key={item.id} value={item.id}>{item.name}</option>
 				))}
 			</select>
 		</form>
