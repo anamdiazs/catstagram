@@ -78,32 +78,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/components/Modal.jsx": {
-      "": {
-        "id": "(sc_client)/./app/components/Modal.jsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/components/Modal.jsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/components/Modal.jsx",
-        "name": "default",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/layout.js": {
       "": {
         "id": "(sc_client)/./app/layout.js",
@@ -312,32 +286,6 @@ self.__RSC_MANIFEST={
     },
     "default": {
       "id": "(app-client)/./app/components/HighlightsSection.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/anamdiazs/Documents/GitHub/catstagram/app/components/Modal.jsx": {
-    "": {
-      "id": "(app-client)/./app/components/Modal.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/components/Modal.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/components/Modal.jsx",
       "name": "default",
       "chunks": [
         "app/page:app/page"
