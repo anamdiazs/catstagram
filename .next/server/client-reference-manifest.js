@@ -52,9 +52,9 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/components/Highlights.jsx": {
+    "(app-client)/./app/components/HighlightsSection.jsx": {
       "": {
-        "id": "(sc_client)/./app/components/Highlights.jsx",
+        "id": "(sc_client)/./app/components/HighlightsSection.jsx",
         "name": "",
         "chunks": [
           "app/page:app/page"
@@ -62,7 +62,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/components/Highlights.jsx",
+        "id": "(sc_client)/./app/components/HighlightsSection.jsx",
         "name": "*",
         "chunks": [
           "app/page:app/page"
@@ -70,10 +70,62 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/components/Highlights.jsx",
+        "id": "(sc_client)/./app/components/HighlightsSection.jsx",
         "name": "default",
         "chunks": [
           "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/Modal.jsx": {
+      "": {
+        "id": "(sc_client)/./app/components/Modal.jsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/components/Modal.jsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Modal.jsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/layout.js": {
+      "": {
+        "id": "(sc_client)/./app/layout.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/layout.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/layout.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -186,7 +238,7 @@ self.__RSC_MANIFEST={
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
     "/Users/anamdiazs/Documents/GitHub/catstagram/app/layout": [
-      "static/css/_app-client_app_styles_globals_css.css"
+      "static/css/app/layout.css"
     ]
   },
   "/Users/anamdiazs/Documents/GitHub/catstagram/app/components/Card.jsx": {
@@ -241,9 +293,9 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/anamdiazs/Documents/GitHub/catstagram/app/components/Highlights.jsx": {
+  "/Users/anamdiazs/Documents/GitHub/catstagram/app/components/HighlightsSection.jsx": {
     "": {
-      "id": "(app-client)/./app/components/Highlights.jsx",
+      "id": "(app-client)/./app/components/HighlightsSection.jsx",
       "name": "",
       "chunks": [
         "app/page:app/page"
@@ -251,7 +303,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/components/Highlights.jsx",
+      "id": "(app-client)/./app/components/HighlightsSection.jsx",
       "name": "*",
       "chunks": [
         "app/page:app/page"
@@ -259,10 +311,71 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/components/Highlights.jsx",
+      "id": "(app-client)/./app/components/HighlightsSection.jsx",
       "name": "default",
       "chunks": [
         "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/anamdiazs/Documents/GitHub/catstagram/app/components/Modal.jsx": {
+    "": {
+      "id": "(app-client)/./app/components/Modal.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/components/Modal.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/components/Modal.jsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/anamdiazs/Documents/GitHub/catstagram/app/styles/globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    }
+  },
+  "/Users/anamdiazs/Documents/GitHub/catstagram/app/layout.js": {
+    "": {
+      "id": "(app-client)/./app/layout.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/layout.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/layout.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -473,15 +586,6 @@ self.__RSC_MANIFEST={
         "app-client-internals:app-client-internals"
       ],
       "async": false
-    }
-  },
-  "/Users/anamdiazs/Documents/GitHub/catstagram/app/styles/globals.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_styles_globals_css.css"
-      ]
     }
   }
 }
