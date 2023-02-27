@@ -1,7 +1,6 @@
 import Card from "./components/Card"
 import Navbar from "./components/Navbar"
 import HighlightsSection from "./components/HighlightsSection"
-import Modal from "./components/Modal"
 
 const fetchCats = () => {
 	return fetch("https://api.thecatapi.com/v1/images/search?limit=50",{
@@ -23,7 +22,6 @@ const fetchBreeds = () => {
 export default async function Home() {
 	const catData = await fetchCats();
 	const breedData = await fetchBreeds();
-
 	const breed = breedData.map( item => {
 		const currentBreed = {
 			id:item.id,
@@ -40,10 +38,9 @@ export default async function Home() {
 				<HighlightsSection />
 				<div className="grid grid-cols-3 lg:gap-4 lg:p-10 justify-center items-center pb-20">
 					{catData ? catData.map(item => (
-						<Card key={item.id} image={item.url}/>
+						<Card key={item.id} image={item.url} imageID={item.id}/>
 					)): console.log('Cats loading....')}
 				</div>
-				{/* <Modal image={"https://cdn2.thecatapi.com/images/OCoeP14wW.jpg"} /> */}
 			</main>
 		</>
   )
